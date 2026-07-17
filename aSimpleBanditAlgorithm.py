@@ -1,6 +1,12 @@
+'''
+This is my attempt at translating the pseudocode for 'a simple bandit algorithm' on page 32 of 
+Sutton and Bartos book on reinforcement learning (second edition). 
+'''
+
 import numpy as np
 import random
 import matplotlib.pyplot as plt
+
 
 number = 200
 all_runs_rewards = []
