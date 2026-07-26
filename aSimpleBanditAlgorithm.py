@@ -12,8 +12,10 @@ number = 200
 all_runs_rewards = []
 
 for t in range(number):
+    QA = [0,0,0,0,0,0,0,0,0,0] 
 
-    QA = [0,0,0,0,0,0,0,0,0,0]
+    #Here i test the 'Optimistic Initial Values' from later in the book
+    #QA = [5,5,5,5,5,5,5,5,5,5]
     NA = [0,0,0,0,0,0,0,0,0,0]
     epsilon = 0.1
     steps = 1000
